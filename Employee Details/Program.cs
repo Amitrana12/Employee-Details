@@ -6,7 +6,7 @@ namespace Employee_Details
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Application");
+            Console.WriteLine("Welcome to Employee Wage Computation Application using C#");
             //int IS_FULL_TIME = 1;
             //int IS_PART_TIME = 2;
             int EMP_RATE_PER_HOUR = 20;
