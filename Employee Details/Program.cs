@@ -7,9 +7,9 @@ namespace Employee_Details
        
         static void Main(String[] args)
         {
-            
-                //Console.WriteLine($"Total Employee Wage is : {Empwage.calculateEmployee()}");
-            Console.WriteLine("Total Employee Wage is :" +Empwage.calculateEmployee());
+
+            Console.WriteLine(Empwage.calculateEmploye("Google", 20, 5, 20));
+            Console.WriteLine(Empwage.calculateEmploye("TCS", 20, 5, 20));
         }
     }
 }
