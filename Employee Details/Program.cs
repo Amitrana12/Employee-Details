@@ -8,8 +8,12 @@ namespace Employee_Details
         static void Main(String[] args)
         {
 
-            Console.WriteLine(Empwage.calculateEmploye("Google", 20, 5, 20));
-            Console.WriteLine(Empwage.calculateEmploye("TCS", 20, 5, 20));
+            Empwage google = new Empwage("Google", 20, 2, 10);
+            Empwage vipro = new Empwage("Vipro", 10, 4, 20);
+            google.computeEmpWage();
+            vipro.computeEmpWage();
+            Console.WriteLine(google.toString());
+            Console.WriteLine(vipro.toString());
         }
     }
 }
